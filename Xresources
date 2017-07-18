@@ -1,0 +1,48 @@
+!-------------URXVT----------------------------
+URxvt.perl-ext-common:tabbedex
+URxvt.font:xft:Hack:pixelsize=12
+URxvt.boldFont:xft:Hack:Bold:pixelsize=12
+URxvt.letterSpace:-1
+URxvt*scrollBar_right:true
+URxvt*thickness:10
+URxvt*scrollstyle:plain
+URxvt*scrollColor:#4e8bed
+URxvt.geometry: 120x40
+
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 0
+URxvt.tabbed.tab-bg: 12
+URxvt.tabbed.autohide:  yes
+URxvt.tabbed.title: yes
+
+!------------URXVT----------------------------
+
+! special
+*.foreground:   #a2a2a2
+*.background:   #1b1b1b
+*.cursorColor:  #a2a2a2
+
+! black
+*.color0:       #555555
+*.color8:       #888888
+
+! red
+*.color1:       #9c3528
+*.color9:       #d64937
+
+! green
+*.color2:       #61bc3b
+*.color10:      #76c452
+
+! yellow
+*.color3:       #2bb2ab
+*.color11:      #5ee4ff
+
+! blue
+*.color4:       #0d68a8
+*.color12:      #3a87bd
+
+! magenta
+*.color5:       #744560
+*.color13:      #9e5e83
