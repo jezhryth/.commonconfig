@@ -1,7 +1,9 @@
 !-------------URXVT----------------------------
 URxvt.perl-ext-common:tabbedex
 URxvt.font:xft:Hack:pixelsize=12
-URxvt.boldFont:xft:Hack:Bold:pixelsize=12
+URxvt.boldFont:xft:Hack:style=Bold:pixelsize=12
+URxvt.italicFont:xft:Hack:style=Italic:pixelsize=12
+URxvt.boldItalicFont:xft:Hack:style=Bold Italic:pixelsize=12
 URxvt.letterSpace:-1
 URxvt*scrollBar_right:true
 URxvt*thickness:10

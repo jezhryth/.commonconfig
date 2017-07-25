@@ -20,5 +20,6 @@ set number
 set autoread
 set t_Co=256
 color muon
+hi MatchParen ctermbg=196 ctermfg=255 cterm=bold
 set laststatus=2
 imap jj <Esc>
