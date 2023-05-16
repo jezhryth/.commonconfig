@@ -7,17 +7,25 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 		\ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
+
 "start plugins inclusion
 call plug#begin('~/.vim/plugs')
-"Plug ''
-Plug 'scrooloose/syntastic'
-Plug 'itchyny/lightline.vim'
-Plug 'gregsexton/Muon'
-Plug 'justinmk/vim-sneak'
+    "Plug ''
+    Plug 'scrooloose/syntastic'
+    Plug 'itchyny/lightline.vim'
+    Plug 'gregsexton/Muon'
+    Plug 'justinmk/vim-sneak'
 "end plugsins inclusion
 call plug#end()
+"put non-Plugin stuff after this line
 
-" Put your non-Plugin stuff after this line
+"set tab behavior
+set tabstop     =4
+set softtabstop =4
+set shiftwidth  =4
+set expandtab
+
+"other desired settings
 set number
 set autoread
 set t_Co=256
