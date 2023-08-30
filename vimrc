@@ -33,3 +33,6 @@ color muon
 hi MatchParen ctermbg=196 ctermfg=255 cterm=bold
 set laststatus=2
 imap jj <Esc>
+
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
